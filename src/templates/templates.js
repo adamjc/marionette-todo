@@ -8,7 +8,7 @@ TodoApp.TemplateHelpers = {
 
 TodoApp.Templates = {
     TodoView:
-        '<span class=<%- TodoApp.TemplateHelpers.TodoViewText(complete) %>>' +
+        '<span class="<%- TodoApp.TemplateHelpers.TodoViewText(complete) %>">' +
             '<%- name %>' +
         '</span>' +
 

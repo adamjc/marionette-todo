@@ -25,7 +25,7 @@ TodoApp.TodoListView  = Marionette.CompositeView.extend({
 
     addTodoItem: function () {
         var $input = this.$el.find('.todos__input');
-        var todoText = $input.val()
+        var todoText = $input.val();
 
         TodoApp.TodoList.add([{
             name: todoText
